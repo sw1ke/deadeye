@@ -13,18 +13,18 @@ Build & Install
 git clone https://github.com/sw1ke/deadeye && cd deadeye
 make                    # bin/deadeye
 sudo make install       # /usr/local/bin + fish completions + /etc/deadeye
-# or, no root:
-make install-user
-Quick start
+# no root:
+ make install-user
+  Quick start
 
-deadeye                        # interactive TUI
-deadeye --once --top 15        # one snapshot for scripts/cron
-deadeye --daemon                # background mode with config rules
-Modes
-Mode Command
-Interactive deadeye
-Snapshot deadeye --once
-Foreground deadeye --foreground
-Daemon deadeye --daemon
-Key hotkeys
-Tab/1-9/0 — tabs · ↑↓ j k — navigate · Enter/←→ — tree · F9 — Smart Kill · F7/F8 — renice · f — filter · / — search · a — ask AI · ? — help · q — quit.
+  deadeye                        # interactive TUI
+ deadeye --once --top 15        # one snapshot for scripts/cron
+ deadeye --daemon                # background mode with config rules
+ Modes
+ Mode Command
+ Interactive deadeye
+ Snapshot deadeye --once
+ Foreground deadeye --foreground
+ Daemon deadeye --daemon
+ Key hotkeys
+ Tab/1-9/0 — tabs · ↑↓ j k — navigate · Enter/←→ — tree · F9 — Smart Kill · F7/F8 — renice · f — filter · / — search · a — ask AI · ?  — help · q — quit.
