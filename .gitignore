@@ -1,0 +1,23 @@
+# Build artifacts
+bin/
+/deadeye
+
+# Local user config (only the example lives in the repository)
+/deadeye.toml
+/deadeye.json
+
+# Test artifacts and logs
+*.raw
+*.log
+*.pid
+/sandbox-test/venv/
+__pycache__/
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Python test environment for the integration tests
+.venv-test/
